@@ -1,4 +1,3 @@
-Repositório direcionado para as práticas de versionamento de código. 
 
 Objetivo: Praticar o fluxo completo do GitHub. 
 
