@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Banco de dados local
+*.sqlite
+*.db
+
+# Arquivos temporários
+*.env
+.DS_Store
+
+# Pastas do sistema
+.vscode/
