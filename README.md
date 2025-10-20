@@ -12,7 +12,6 @@ API e Frontend para gerenciamento de usuários com registro, login e perfil prot
 
 ---
 
-## Estrutura do projeto
 
 # APICamila
 
@@ -26,28 +25,6 @@ API e Frontend para gerenciamento de usuários com registro, login e perfil prot
 - **Frontend:** React  
 - **Ferramentas:** Thunder Client (teste de API)
 
----
-
-## Estrutura do projeto
-
-APICamila/
-├─ apicamila-backend/
-│ ├─ server.js
-│ ├─ database.js
-│ ├─ .env
-│ └─ users.db
-├─ apicamila-frontend/
-│ ├─ public/
-│ ├─ src/
-│ │ ├─ components/
-│ │ │ ├─ RegisterForm.jsx
-│ │ │ ├─ LoginForm.jsx
-│ │ │ └─ Profile.jsx
-│ │ ├─ App.jsx
-│ │ ├─ index.js
-│ │ └─ index.css
-│ └─ package.json
-└─ README.md
 
 ## Instalação
 
@@ -145,6 +122,7 @@ Use Thunder Client, Postman ou curl:
 curl -X POST http://localhost:3000/register \
 -H "Content-Type: application/json" \
 -d '{"name":"Teste","email":"teste@example.com","password":"123456"}'
+
 
 
 
